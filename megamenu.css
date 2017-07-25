@@ -116,6 +116,11 @@ iframe {
   margin-bottom: 3px;
 }
 
+/* .img img-responsive {
+
+  padding-left: 200px; */
+
+
 
 
 
@@ -155,6 +160,8 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
+
+
 
 .embed-responsive-item {
     max-width: 1280px;
@@ -273,7 +280,7 @@ body {
   margin-top:22px;
     margin-bottom: 4px;
     padding:0;
-    color: #333333;
+    color: black;
     text-align: center;
     text-decoration: underline;
 
@@ -284,14 +291,14 @@ body {
   padding:0;
     text-transform: none;
     font-size:16px;
-    color:#333333;
+    color: black;
     text-decoration: none;
 }
 
 .timeline .timeline-body>p,
 .timeline .timeline-body>ul {
     margin-bottom: 0;
-    color:#333333;
+    color:black;
 }
 /*Style for even div.line*/
 .timeline>li:nth-child(odd) .line:before {
@@ -322,6 +329,7 @@ body {
     -webkit-transform: rotate(44deg); /* Safari */
     transform: rotate(44deg);
     box-shadow: 0 0 5px #4582ec;
+
 }
 /* Medium Devices, .visible-md-* */
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -364,6 +372,9 @@ body {
     min-height: 0px;
     right: 0px;
   }
+
+
+
   .timeline > li:nth-child(odd) {
     margin-bottom: 0px;
     min-height: 0px;
