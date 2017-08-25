@@ -15,8 +15,8 @@ $('html').click(function (e) {
 
 
     $(document).ready(function(){
-        $(".signin").submit(function(){
-            alert("You've succesfully signed in");
+        $("#form-sign.in").submit(function(){
+            alert("You've succesfully signed out");
         });
     });
 
@@ -31,7 +31,7 @@ $('html').click(function (e) {
 
 $(document).ready(function(){
     $("#form-signin.in").click(function(){
-        alert("You've succesfully signed out");
+        alert("You've succesfully signed in");
     });
 });
 
